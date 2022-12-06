@@ -16,11 +16,13 @@ public abstract class Enterprise {
     private OrganizationDirectory organizationDirectory;
     
     public enum EnterpriseType{
-        Stadium("Stadium"),
-        SingerAgency("SingerAgency"),
-        DecorationCompany("DecorationCompany"),
-        AdvertisementCompany("AdvertisementCompany"),
+        SportsLotteryEnterprise("SportsLotteryEnterprise"),
+        StadiumEnterprise("Stadium"),
+        SalesAgency("SalesAgency"),
+        PlanningEnterprise("PlanningEnterprise"),
+        AdvertisingEnterprise("AdvertisingEnterprise"),
         Population("Population");
+        
         
         private String value;
         

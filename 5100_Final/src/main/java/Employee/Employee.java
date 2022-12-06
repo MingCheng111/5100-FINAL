@@ -37,7 +37,8 @@ public class Employee {
         Employee.count = count;
     }
 
-    public Employee() {
+    public Employee(String name) {
+        this.name = name;
         id = count;
         count++;
     }

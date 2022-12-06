@@ -7,7 +7,7 @@ package Organization;
 import Employee.EmployeeDirectory;
 import Role.Role;
 import UerAccount.UserAccountDirectory;
-import WorldCupSystem.WorkQueue;
+import WorkQueue.WorkQueue;
 import java.util.ArrayList;
 
 /**
@@ -23,7 +23,8 @@ public abstract class Organization {
     private int organizationID;
     private static int counter=0;
     public enum OrganizationType{
-        AdminOrganization("Admin Organization"),
+        
+        SysAdminOrganization("SysAdminOrganization"),
         
         StadiumAssignOrganization("Stadium Assign Organization"),
         StadiumDesignerOrganization("Stadium Designer Organization"),
@@ -32,11 +33,13 @@ public abstract class Organization {
         
         ConcertOrganization("Concert Organization"),
         
-        DecorationOrganization("Decoration Organization"),
+        LotteryOrganization("LotteryOrganization"),
         
-        AdOrganization("Ad Organization"),
+        PlanningOrganization("PlanningOrganization"),
         
-        Population("Population Organization");
+        AdvertisingOrganization("AdvertisingOrganization"),
+        
+        PopulationOrganization("Population Organization");
        
         private String value;
         private OrganizationType(String value) {

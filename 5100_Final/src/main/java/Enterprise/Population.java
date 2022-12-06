@@ -8,10 +8,10 @@ package Enterprise;
  *
  * @author JINLANG
  */
-public class AdvertisingEnterprise extends Enterprise{
+public class Population extends Enterprise{
 
-    public AdvertisingEnterprise(String name) {
-        super(name, EnterpriseType.AdvertisingEnterprise);
+    public Population(String name) {
+        super(name, Enterprise.EnterpriseType.Population);
     }
     
 }

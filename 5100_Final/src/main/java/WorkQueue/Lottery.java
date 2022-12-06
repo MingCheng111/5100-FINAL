@@ -2,16 +2,16 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Enterprise;
+package WorkQueue;
 
 /**
  *
  * @author JINLANG
  */
-public class AdvertisingEnterprise extends Enterprise{
-
-    public AdvertisingEnterprise(String name) {
-        super(name, EnterpriseType.AdvertisingEnterprise);
-    }
-    
+class Lottery {
+    private String hostTeam;
+    private double hostCapitalPool;
+    private String visitTeam;
+    private double visitCapitalPool;
+    private double initialOdds;//host / visit;
 }

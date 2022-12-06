@@ -4,10 +4,12 @@
  */
 package Enterprise;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author JINLANG
  */
 public class EnterpriseDirectory {
-    
+    private ArrayList<Enterprise> enters;
 }

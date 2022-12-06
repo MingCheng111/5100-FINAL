@@ -4,7 +4,6 @@
  */
 package Employee;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 
 /**
@@ -26,8 +25,8 @@ public class EmployeeDirectory {
         this.employees = new HashMap<>();
     }
     
-    public Employee addEmployee(){
-        Employee e = new Employee();
+    public Employee addEmployee(String name){
+        Employee e = new Employee(name);
         employees.put(e.getId(), e);
         return e;
     }

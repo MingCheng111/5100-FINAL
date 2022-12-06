@@ -12,17 +12,18 @@ public abstract class Role {
     public enum RoleType{
         SystemAdmin("SystemAdmin"),
         
-        StadiumAssign("Stadium Assign"),
+        StadiumAssign("Stadium Assign"),        
+        StadiumManager("Stadium Manager"),
+        
+                
         TicketSales("TicketSales"),
-        StadiumAd("Stadium Ad"),
-        StadiumDesigner("Stadium Designer"),
         AfterSales("AfterSales"),
         
-        ConcertManager("Concert Manager"),
+        PlanningManager("Planning Manager"),
         
-        DecorationManager("Decoration Manager"),
+        LotteryManager("LotteryManager"),
         
-        AdvertisementManager("Advertisement Manager"),
+        AdvertisingManager("Advertising Manager"),
         
         Audience("Audience");
         
