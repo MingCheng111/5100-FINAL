@@ -7,7 +7,7 @@ package Business;
 
 
 public class Person {
-    private String ;
+    private String name;
 
 
     public String getName() {
