@@ -43,5 +43,10 @@ public class Employee {
         count++;
     }
 
+    @Override
+    public String toString() {
+        return name;
+    }
+
     
 }

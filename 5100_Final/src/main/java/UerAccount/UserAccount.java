@@ -23,9 +23,14 @@ public class UserAccount {
         return account;
     }
 
-    public UserAccount() {
+
+
+    public UserAccount(String account, String passward, Role role, Employee employee) {
+        this.account = account;
+        this.passward = passward;
+        this.role = role;
+        this.employee = employee;
         this.workQueue = new WorkQueue();
-        
     }
 
     public void setAccount(String account) {
