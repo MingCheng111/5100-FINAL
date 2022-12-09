@@ -24,11 +24,11 @@ public class EcoSystem extends Organization{
         return business;
     }
     
-    public Network createAndAddNetwork(){
-        Network network=new Network();
-        networkList.add(network);
-        return network;
-    }
+//    public Network createAndAddNetwork(){
+//        Network network=new Network();
+//        networkList.add(network);
+//        return network;
+//    }
     
     @Override
     public ArrayList<Role> getSupportedRole() {
