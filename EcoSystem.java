@@ -37,10 +37,10 @@ public class EcoSystem extends Organization{
         return roleList;
     }
     
-//    private EcoSystem(){
-//        super(null);
-//        networkList=new ArrayList<Network>();
-//    }
+    private EcoSystem(){
+        super(null);
+        networkList=new ArrayList<Network>();
+    }
 
     public ArrayList<Network> getNetworkList() {
         return networkList;
@@ -50,13 +50,13 @@ public class EcoSystem extends Organization{
         this.networkList = networkList;
     }
     
-    public boolean checkIfUserIsUnique(String userName){
-        if(!this.getUserAccountDirectory().checkIfUsernameIsUnique(userName)){
-            return false;
-        }
-        for(Network network:networkList){
-            
-        }
-        return true;
-    }
+//    public boolean checkIfUserIsUnique(String userName){
+//        if(!this.getUserAccountDirectory().checkIfUsernameIsUnique(userName)){
+//            return false;
+//        }
+//        for(Network network:networkList){
+//
+//        }
+//        return true;
+//    }
 }
