@@ -69,39 +69,38 @@ public class RegistJPanel extends javax.swing.JPanel {
 
         jPanel1.setLayout(null);
 
+        jLabel5.setBackground(new java.awt.Color(0, 0, 0));
         jLabel5.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 18)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(0, 102, 51));
         jLabel5.setText("Email:");
         jPanel1.add(jLabel5);
-        jLabel5.setBounds(200, 340, 55, 22);
+        jLabel5.setBounds(280, 440, 55, 22);
         jPanel1.add(txtCom);
-        txtCom.setBounds(290, 300, 124, 26);
+        txtCom.setBounds(370, 400, 124, 26);
 
         jLabel1.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 48)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(51, 102, 0));
         jLabel1.setText("Sign Up");
         jPanel1.add(jLabel1);
-        jLabel1.setBounds(40, 30, 360, 100);
+        jLabel1.setBounds(120, 130, 360, 100);
 
+        jLabel2.setBackground(new java.awt.Color(0, 0, 0));
         jLabel2.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 18)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(0, 102, 51));
         jLabel2.setText("User Name:");
         jPanel1.add(jLabel2);
-        jLabel2.setBounds(150, 210, 105, 22);
+        jLabel2.setBounds(230, 310, 105, 22);
 
+        jLabel3.setBackground(new java.awt.Color(0, 0, 0));
         jLabel3.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 18)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(0, 102, 51));
         jLabel3.setText("Password:");
         jPanel1.add(jLabel3);
-        jLabel3.setBounds(160, 260, 93, 22);
+        jLabel3.setBounds(240, 360, 93, 22);
 
+        jLabel4.setBackground(new java.awt.Color(0, 0, 0));
         jLabel4.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 18)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(0, 102, 51));
         jLabel4.setText("Comfirm Your Password:");
         jPanel1.add(jLabel4);
-        jLabel4.setBounds(30, 300, 227, 22);
+        jLabel4.setBounds(110, 400, 227, 22);
         jPanel1.add(txtName);
-        txtName.setBounds(290, 210, 124, 26);
+        txtName.setBounds(370, 310, 124, 26);
 
         txtPassword.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -109,7 +108,7 @@ public class RegistJPanel extends javax.swing.JPanel {
             }
         });
         jPanel1.add(txtPassword);
-        txtPassword.setBounds(290, 260, 124, 26);
+        txtPassword.setBounds(370, 360, 124, 26);
 
         txtEmail.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -117,7 +116,7 @@ public class RegistJPanel extends javax.swing.JPanel {
             }
         });
         jPanel1.add(txtEmail);
-        txtEmail.setBounds(290, 340, 124, 26);
+        txtEmail.setBounds(370, 440, 124, 26);
 
         btnSign.setBackground(new java.awt.Color(255, 255, 255));
         btnSign.setFont(new java.awt.Font("Yu Gothic UI Semilight", 0, 18)); // NOI18N
@@ -129,10 +128,10 @@ public class RegistJPanel extends javax.swing.JPanel {
             }
         });
         jPanel1.add(btnSign);
-        btnSign.setBounds(240, 430, 110, 30);
+        btnSign.setBounds(320, 530, 110, 30);
 
+        jCheckBox1.setBackground(new java.awt.Color(0, 0, 0));
         jCheckBox1.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 18)); // NOI18N
-        jCheckBox1.setForeground(new java.awt.Color(0, 102, 0));
         jCheckBox1.setText("Accept Our Privacy Policy");
         jCheckBox1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -140,21 +139,22 @@ public class RegistJPanel extends javax.swing.JPanel {
             }
         });
         jPanel1.add(jCheckBox1);
-        jCheckBox1.setBounds(140, 380, 269, 27);
+        jCheckBox1.setBounds(220, 480, 269, 27);
 
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/r993360_1296x729_16-9.jpeg"))); // NOI18N
+        jLabel6.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/World-Cup.jpeg"))); // NOI18N
         jPanel1.add(jLabel6);
-        jLabel6.setBounds(-240, -30, 1070, 720);
+        jLabel6.setBounds(0, -30, 1300, 1000);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 832, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 1094, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 691, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 1000, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
     }// </editor-fold>//GEN-END:initComponents
 
