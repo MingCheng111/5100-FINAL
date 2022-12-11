@@ -6,7 +6,7 @@ package Enterprise;
 
 /**
  *
- * @author JINLANG
+ * @author JINLAN
  */
 public class SalesAgencyEnterprise extends Enterprise{
 
