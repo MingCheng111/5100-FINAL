@@ -182,8 +182,9 @@ public class AddNewBarJPanel extends javax.swing.JPanel {
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/960x0.jpeg"))); // NOI18N
         jLabel2.setText("jLabel2");
+        jLabel2.setPreferredSize(new java.awt.Dimension(1008, 880));
         add(jLabel2);
-        jLabel2.setBounds(0, -130, 870, 880);
+        jLabel2.setBounds(0, -130, 1030, 880);
     }// </editor-fold>//GEN-END:initComponents
 
     private void txtStadiumNameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtStadiumNameActionPerformed
