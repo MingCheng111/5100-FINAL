@@ -15,20 +15,20 @@ import java.util.ArrayList;
 
 public class EcoSystem extends Organization{
     
-//    private static EcoSystem business;
-//    private ArrayList<Network> networkList;
-//    public static EcoSystem getInstance(){
-//        if(business==null){
-//            business=new EcoSystem();
-//        }
-//        return business;
-//    }
+    private static EcoSystem business;
+    private ArrayList<Network> networkList;
+    public static EcoSystem getInstance(){
+        if(business==null){
+            business=new EcoSystem();
+        }
+        return business;
+    }
     
-//    public Network createAndAddNetwork(){
-//        Network network=new Network();
-//        networkList.add(network);
-//        return network;
-//    }
+    public Network createAndAddNetwork(){
+        Network network=new Network();
+        networkList.add(network);
+        return network;
+    }
     
     @Override
     public ArrayList<Role> getSupportedRole() {
