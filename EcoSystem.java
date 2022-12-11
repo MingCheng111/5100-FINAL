@@ -30,17 +30,17 @@ public class EcoSystem extends Organization{
         return network;
     }
     
-//    @Override
-//    public ArrayList<Role> getSupportedRole() {
-//        ArrayList<Role> roleList=new ArrayList<Role>();
-//        roleList.add(new SystemAdminRole());
-//        return roleList;
-//    }
-    
-    private EcoSystem(){
-        super(null);
-        networkList=new ArrayList<Network>();
+    @Override
+    public ArrayList<Role> getSupportedRole() {
+        ArrayList<Role> roleList=new ArrayList<Role>();
+        roleList.add(new SystemAdminRole());
+        return roleList;
     }
+    
+//    private EcoSystem(){
+//        super(null);
+//        networkList=new ArrayList<Network>();
+//    }
 
     public ArrayList<Network> getNetworkList() {
         return networkList;
