@@ -185,7 +185,7 @@ public class ManageEnterpriseAdminJPanel extends javax.swing.JPanel {
 
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/kjTczgrLk4EDPmASJEnfZB.jpeg"))); // NOI18N
         add(jLabel6);
-        jLabel6.setBounds(-240, 0, 1070, 630);
+        jLabel6.setBounds(0, 0, 1300, 1000);
     }// </editor-fold>//GEN-END:initComponents
 
     private void networkJComboBoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_networkJComboBoxActionPerformed

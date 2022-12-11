@@ -127,7 +127,7 @@ public class ManageNetworkJPanel extends javax.swing.JPanel {
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/kjTczgrLk4EDPmASJEnfZB.jpeg"))); // NOI18N
         jLabel1.setText("jLabel1");
         add(jLabel1);
-        jLabel1.setBounds(-5, -4, 950, 640);
+        jLabel1.setBounds(0, 0, 1300, 1000);
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnSubmitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSubmitActionPerformed

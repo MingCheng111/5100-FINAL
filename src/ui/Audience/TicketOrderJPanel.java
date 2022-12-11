@@ -195,13 +195,13 @@ public class TicketOrderJPanel extends javax.swing.JPanel {
         jScrollPane1.setViewportView(orderJTable);
 
         add(jScrollPane1);
-        jScrollPane1.setBounds(130, 290, 810, 139);
+        jScrollPane1.setBounds(130, 250, 810, 139);
 
         jLabel1.setFont(new java.awt.Font("Bodoni MT", 1, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Tickets Order History");
         add(jLabel1);
-        jLabel1.setBounds(670, 200, 270, 100);
+        jLabel1.setBounds(670, 160, 270, 100);
 
         jLabel2.setFont(new java.awt.Font("Bodoni MT", 1, 36)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
@@ -218,7 +218,7 @@ public class TicketOrderJPanel extends javax.swing.JPanel {
             }
         });
         add(btnComplete);
-        btnComplete.setBounds(650, 440, 131, 29);
+        btnComplete.setBounds(650, 400, 131, 29);
 
         lblPrice.setFont(new java.awt.Font("Bodoni MT", 0, 14)); // NOI18N
         lblPrice.setText(" ");
@@ -234,7 +234,7 @@ public class TicketOrderJPanel extends javax.swing.JPanel {
             }
         });
         add(btnBuyTicket);
-        btnBuyTicket.setBounds(810, 650, 125, 29);
+        btnBuyTicket.setBounds(810, 610, 125, 29);
 
         concertJTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -269,7 +269,7 @@ public class TicketOrderJPanel extends javax.swing.JPanel {
         jScrollPane2.setViewportView(concertJTable);
 
         add(jScrollPane2);
-        jScrollPane2.setBounds(130, 500, 810, 139);
+        jScrollPane2.setBounds(130, 460, 810, 139);
 
         btnComment.setBackground(new java.awt.Color(255, 255, 255));
         btnComment.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
@@ -280,7 +280,7 @@ public class TicketOrderJPanel extends javax.swing.JPanel {
             }
         });
         add(btnComment);
-        btnComment.setBounds(810, 440, 131, 29);
+        btnComment.setBounds(810, 400, 131, 29);
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/worldcup dark backgroud.jpeg"))); // NOI18N
         jLabel3.setText("jLabel3");

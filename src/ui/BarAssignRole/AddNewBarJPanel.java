@@ -83,9 +83,10 @@ public class AddNewBarJPanel extends javax.swing.JPanel {
         setLayout(null);
 
         jLabel1.setFont(new java.awt.Font("Bodoni MT", 1, 24)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Add a New Bar");
         add(jLabel1);
-        jLabel1.setBounds(322, 17, 181, 30);
+        jLabel1.setBounds(190, 150, 181, 30);
 
         txtStadiumName.setFont(new java.awt.Font("Bodoni MT", 0, 14)); // NOI18N
         txtStadiumName.addActionListener(new java.awt.event.ActionListener() {
@@ -94,7 +95,7 @@ public class AddNewBarJPanel extends javax.swing.JPanel {
             }
         });
         add(txtStadiumName);
-        txtStadiumName.setBounds(405, 170, 140, 27);
+        txtStadiumName.setBounds(290, 270, 140, 27);
 
         btnAddNewStadium.setBackground(new java.awt.Color(255, 255, 255));
         btnAddNewStadium.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
@@ -105,17 +106,19 @@ public class AddNewBarJPanel extends javax.swing.JPanel {
             }
         });
         add(btnAddNewStadium);
-        btnAddNewStadium.setBounds(396, 436, 149, 29);
+        btnAddNewStadium.setBounds(280, 530, 149, 29);
 
-        lblStadiumName.setFont(new java.awt.Font("Bodoni MT", 0, 14)); // NOI18N
+        lblStadiumName.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
+        lblStadiumName.setForeground(new java.awt.Color(255, 255, 255));
         lblStadiumName.setText("Bar Name:");
         add(lblStadiumName);
-        lblStadiumName.setBounds(267, 175, 110, 17);
+        lblStadiumName.setBounds(150, 270, 110, 17);
 
-        lblStadiumSeat.setFont(new java.awt.Font("Bodoni MT", 0, 14)); // NOI18N
+        lblStadiumSeat.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
+        lblStadiumSeat.setForeground(new java.awt.Color(255, 255, 255));
         lblStadiumSeat.setText("Available Seats:");
         add(lblStadiumSeat);
-        lblStadiumSeat.setBounds(267, 232, 110, 17);
+        lblStadiumSeat.setBounds(150, 320, 110, 17);
 
         btnBack.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
         btnBack.setText("Back");
@@ -125,7 +128,7 @@ public class AddNewBarJPanel extends javax.swing.JPanel {
             }
         });
         add(btnBack);
-        btnBack.setBounds(36, 22, 77, 29);
+        btnBack.setBounds(40, 30, 100, 29);
 
         txtStadiumId.setFont(new java.awt.Font("Bodoni MT", 0, 14)); // NOI18N
         txtStadiumId.setEnabled(false);
@@ -136,12 +139,13 @@ public class AddNewBarJPanel extends javax.swing.JPanel {
             }
         });
         add(txtStadiumId);
-        txtStadiumId.setBounds(405, 118, 140, 27);
+        txtStadiumId.setBounds(290, 210, 140, 27);
 
-        lblStadiumId.setFont(new java.awt.Font("Bodoni MT", 0, 14)); // NOI18N
+        lblStadiumId.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
+        lblStadiumId.setForeground(new java.awt.Color(255, 255, 255));
         lblStadiumId.setText("Bar ID:");
         add(lblStadiumId);
-        lblStadiumId.setBounds(267, 123, 110, 17);
+        lblStadiumId.setBounds(150, 220, 110, 17);
 
         txtStadiumSeat.setFont(new java.awt.Font("Bodoni MT", 0, 14)); // NOI18N
         txtStadiumSeat.addActionListener(new java.awt.event.ActionListener() {
@@ -150,12 +154,13 @@ public class AddNewBarJPanel extends javax.swing.JPanel {
             }
         });
         add(txtStadiumSeat);
-        txtStadiumSeat.setBounds(405, 227, 140, 27);
+        txtStadiumSeat.setBounds(290, 320, 140, 27);
 
-        lblStadiumCity.setFont(new java.awt.Font("Bodoni MT", 0, 14)); // NOI18N
+        lblStadiumCity.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
+        lblStadiumCity.setForeground(new java.awt.Color(255, 255, 255));
         lblStadiumCity.setText("City:");
         add(lblStadiumCity);
-        lblStadiumCity.setBounds(267, 298, 110, 17);
+        lblStadiumCity.setBounds(150, 370, 110, 17);
 
         txtStadiumCity.setFont(new java.awt.Font("Bodoni MT", 0, 14)); // NOI18N
         txtStadiumCity.addActionListener(new java.awt.event.ActionListener() {
@@ -164,12 +169,13 @@ public class AddNewBarJPanel extends javax.swing.JPanel {
             }
         });
         add(txtStadiumCity);
-        txtStadiumCity.setBounds(405, 293, 140, 27);
+        txtStadiumCity.setBounds(290, 370, 140, 27);
 
-        lblStadiumAddress.setFont(new java.awt.Font("Bodoni MT", 0, 14)); // NOI18N
+        lblStadiumAddress.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
+        lblStadiumAddress.setForeground(new java.awt.Color(255, 255, 255));
         lblStadiumAddress.setText("Address:");
         add(lblStadiumAddress);
-        lblStadiumAddress.setBounds(267, 360, 110, 17);
+        lblStadiumAddress.setBounds(150, 420, 110, 17);
 
         txtStadiumAddress.setFont(new java.awt.Font("Bodoni MT", 0, 14)); // NOI18N
         txtStadiumAddress.addActionListener(new java.awt.event.ActionListener() {
@@ -178,13 +184,13 @@ public class AddNewBarJPanel extends javax.swing.JPanel {
             }
         });
         add(txtStadiumAddress);
-        txtStadiumAddress.setBounds(405, 355, 140, 27);
+        txtStadiumAddress.setBounds(290, 420, 140, 27);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/960x0.jpeg"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/bar1.jpeg"))); // NOI18N
         jLabel2.setText("jLabel2");
-        jLabel2.setPreferredSize(new java.awt.Dimension(1008, 880));
+        jLabel2.setPreferredSize(new java.awt.Dimension(1300, 1000));
         add(jLabel2);
-        jLabel2.setBounds(0, -130, 1030, 880);
+        jLabel2.setBounds(0, 0, 1260, 1000);
     }// </editor-fold>//GEN-END:initComponents
 
     private void txtStadiumNameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtStadiumNameActionPerformed

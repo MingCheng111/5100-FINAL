@@ -272,7 +272,7 @@ public class GameManageWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
         add(txtTicketPrice);
-        txtTicketPrice.setBounds(50, 400, 162, 27);
+        txtTicketPrice.setBounds(50, 380, 162, 27);
 
         btnSetTicketPrice.setBackground(new java.awt.Color(255, 255, 255));
         btnSetTicketPrice.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
@@ -283,7 +283,7 @@ public class GameManageWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
         add(btnSetTicketPrice);
-        btnSetTicketPrice.setBounds(261, 380, 162, 29);
+        btnSetTicketPrice.setBounds(310, 380, 162, 29);
 
         btnSellTickets.setBackground(new java.awt.Color(255, 255, 255));
         btnSellTickets.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N

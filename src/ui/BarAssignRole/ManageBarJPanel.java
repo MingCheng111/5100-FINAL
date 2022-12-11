@@ -101,6 +101,7 @@ public class ManageBarJPanel extends javax.swing.JPanel {
         jSeparator1.setBounds(0, 55, 850, 11);
 
         jLabel2.setFont(new java.awt.Font("Bodoni MT", 1, 24)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Manage Bar");
         add(jLabel2);
         jLabel2.setBounds(298, 182, 144, 30);
@@ -184,10 +185,11 @@ public class ManageBarJPanel extends javax.swing.JPanel {
         add(btnBack);
         btnBack.setBounds(0, 72, 77, 29);
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/960x0.jpeg"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/bar1.jpeg"))); // NOI18N
         jLabel3.setText("jLabel3");
+        jLabel3.setSize(new java.awt.Dimension(1300, 1000));
         add(jLabel3);
-        jLabel3.setBounds(-5, -4, 860, 630);
+        jLabel3.setBounds(-5, -4, 1300, 1000);
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnModifyStadiumActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnModifyStadiumActionPerformed

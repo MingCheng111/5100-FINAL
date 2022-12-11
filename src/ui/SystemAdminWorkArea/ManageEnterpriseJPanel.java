@@ -156,8 +156,9 @@ public class ManageEnterpriseJPanel extends javax.swing.JPanel {
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/kjTczgrLk4EDPmASJEnfZB.jpeg"))); // NOI18N
         jLabel4.setText("jLabel4");
+        jLabel4.setPreferredSize(new java.awt.Dimension(1300, 1000));
         add(jLabel4);
-        jLabel4.setBounds(-120, 0, 950, 580);
+        jLabel4.setBounds(0, 0, 1300, 1000);
     }// </editor-fold>//GEN-END:initComponents
 
     private void submitJButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_submitJButtonActionPerformed

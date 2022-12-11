@@ -114,11 +114,11 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
             jPanel1.setLayout(jPanel1Layout);
             jPanel1Layout.setHorizontalGroup(
                 jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 32, Short.MAX_VALUE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 23, Short.MAX_VALUE)
             );
             jPanel1Layout.setVerticalGroup(
                 jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 535, Short.MAX_VALUE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 726, Short.MAX_VALUE)
             );
 
             jSplitPane.setLeftComponent(jPanel1);
@@ -166,12 +166,13 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
 
             jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/kjTczgrLk4EDPmASJEnfZB.jpeg"))); // NOI18N
             jLabel2.setText("jLabel2");
+            jLabel2.setSize(new java.awt.Dimension(1300, 1000));
             jPanel2.add(jLabel2);
-            jLabel2.setBounds(-160, 0, 1050, 550);
+            jLabel2.setBounds(0, 0, 1300, 1000);
 
             jSplitPane.setRightComponent(jPanel2);
 
-            add(jSplitPane, java.awt.BorderLayout.CENTER);
+            add(jSplitPane, java.awt.BorderLayout.LINE_START);
         }// </editor-fold>//GEN-END:initComponents
 
     private void btnManageNetworkActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnManageNetworkActionPerformed
