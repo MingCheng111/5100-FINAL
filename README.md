@@ -18,8 +18,8 @@ This system is designed to provide service for soccer fans during the 2022 World
 
 Tech in Use
 --
-Jave
-Java Swing
+Jave;
+Java Swing;
 Db4o
 
 
