@@ -41,22 +41,22 @@ public class EcoSystem extends Organization{
         super(null);
         networkList=new ArrayList<Network>();
     }
-//
-//    public ArrayList<Network> getNetworkList() {
-//        return networkList;
-//    }
-//
-//    public void setNetworkList(ArrayList<Network> networkList) {
-//        this.networkList = networkList;
-//    }
+
+    public ArrayList<Network> getNetworkList() {
+        return networkList;
+    }
+
+    public void setNetworkList(ArrayList<Network> networkList) {
+        this.networkList = networkList;
+    }
     
-//    public boolean checkIfUserIsUnique(String userName){
-//        if(!this.getUserAccountDirectory().checkIfUsernameIsUnique(userName)){
-//            return false;
-//        }
-//        for(Network network:networkList){
-//
-//        }
-//        return true;
-//    }
+    public boolean checkIfUserIsUnique(String userName){
+        if(!this.getUserAccountDirectory().checkIfUsernameIsUnique(userName)){
+            return false;
+        }
+        for(Network network:networkList){
+
+        }
+        return true;
+    }
 }
