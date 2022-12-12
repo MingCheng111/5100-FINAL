@@ -71,6 +71,7 @@ public class RegistJPanel extends javax.swing.JPanel {
 
         jLabel5.setBackground(new java.awt.Color(0, 0, 0));
         jLabel5.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 18)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Email:");
         jPanel1.add(jLabel5);
         jLabel5.setBounds(280, 440, 55, 22);
@@ -78,24 +79,28 @@ public class RegistJPanel extends javax.swing.JPanel {
         txtCom.setBounds(370, 400, 124, 26);
 
         jLabel1.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 48)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Sign Up");
         jPanel1.add(jLabel1);
         jLabel1.setBounds(120, 130, 360, 100);
 
         jLabel2.setBackground(new java.awt.Color(0, 0, 0));
         jLabel2.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 18)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("User Name:");
         jPanel1.add(jLabel2);
         jLabel2.setBounds(230, 310, 105, 22);
 
         jLabel3.setBackground(new java.awt.Color(0, 0, 0));
         jLabel3.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 18)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Password:");
         jPanel1.add(jLabel3);
         jLabel3.setBounds(240, 360, 93, 22);
 
         jLabel4.setBackground(new java.awt.Color(0, 0, 0));
         jLabel4.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 18)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Comfirm Your Password:");
         jPanel1.add(jLabel4);
         jLabel4.setBounds(110, 400, 227, 22);
@@ -132,6 +137,7 @@ public class RegistJPanel extends javax.swing.JPanel {
 
         jCheckBox1.setBackground(new java.awt.Color(0, 0, 0));
         jCheckBox1.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 18)); // NOI18N
+        jCheckBox1.setForeground(new java.awt.Color(255, 255, 255));
         jCheckBox1.setText("Accept Our Privacy Policy");
         jCheckBox1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -142,9 +148,11 @@ public class RegistJPanel extends javax.swing.JPanel {
         jCheckBox1.setBounds(220, 480, 269, 27);
 
         jLabel6.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/World-Cup.jpeg"))); // NOI18N
+        jLabel6.setSize(new java.awt.Dimension(1300, 1000));
         jPanel1.add(jLabel6);
-        jLabel6.setBounds(0, -30, 1300, 1000);
+        jLabel6.setBounds(0, 0, 1300, 1000);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);

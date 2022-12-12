@@ -117,10 +117,11 @@ public class BarAssignWorkJPanel extends javax.swing.JPanel {
             jPanel1.add(lblDevider);
             lblDevider.setBounds(227, 60, 310, 30);
 
-            jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/newGame6.jpeg"))); // NOI18N
+            jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/watch games at bar-2.jpeg"))); // NOI18N
             jLabel1.setText("jLabel1");
+            jLabel1.setSize(new java.awt.Dimension(1300, 1000));
             jPanel1.add(jLabel1);
-            jLabel1.setBounds(10, 0, 900, 760);
+            jLabel1.setBounds(0, 0, 1300, 960);
 
             javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
             this.setLayout(layout);
@@ -128,14 +129,14 @@ public class BarAssignWorkJPanel extends javax.swing.JPanel {
                 layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(layout.createSequentialGroup()
                     .addContainerGap()
-                    .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 806, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addContainerGap(38, Short.MAX_VALUE))
+                    .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 1300, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             );
             layout.setVerticalGroup(
                 layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(layout.createSequentialGroup()
                     .addContainerGap()
-                    .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 685, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 960, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             );
         }// </editor-fold>//GEN-END:initComponents

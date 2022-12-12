@@ -98,7 +98,7 @@ public class AdminWorkAreaJPanel extends javax.swing.JPanel {
         jLabel2.setRequestFocusEnabled(false);
         jLabel2.setVerifyInputWhenFocusTarget(false);
         add(jLabel2);
-        jLabel2.setBounds(-120, -60, 1200, 1190);
+        jLabel2.setBounds(10, 0, 1200, 1080);
     }// </editor-fold>//GEN-END:initComponents
 
     private void userJButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_userJButtonActionPerformed

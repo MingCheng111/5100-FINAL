@@ -113,14 +113,16 @@ public class ViewAllCommentsJPanel extends javax.swing.JPanel {
             jScrollPane3.setViewportView(tblOrderInfo);
 
             jPanel1.add(jScrollPane3);
-            jScrollPane3.setBounds(0, 30, 917, 268);
+            jScrollPane3.setBounds(50, 160, 917, 268);
 
             jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/kjTczgrLk4EDPmASJEnfZB.jpeg"))); // NOI18N
+            jLabel1.setPreferredSize(new java.awt.Dimension(1300, 1000));
+            jLabel1.setSize(new java.awt.Dimension(1300, 1000));
             jPanel1.add(jLabel1);
-            jLabel1.setBounds(-5, -4, 1080, 590);
+            jLabel1.setBounds(-80, -220, 1300, 1000);
 
             add(jPanel1);
-            jPanel1.setBounds(0, 0, 1068, 580);
+            jPanel1.setBounds(0, 0, 1300, 1000);
         }// </editor-fold>//GEN-END:initComponents
 
     private void backBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backBtnActionPerformed

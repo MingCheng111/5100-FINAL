@@ -156,10 +156,10 @@ public class GameFeedBackDetailJPanel extends javax.swing.JPanel {
 
             jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/kjTczgrLk4EDPmASJEnfZB.jpeg"))); // NOI18N
             jPanel1.add(jLabel1);
-            jLabel1.setBounds(-200, -30, 1030, 650);
+            jLabel1.setBounds(-180, -30, 1240, 1000);
 
             add(jPanel1);
-            jPanel1.setBounds(6, 14, 0, 0);
+            jPanel1.setBounds(6, 14, 1240, 1000);
         }// </editor-fold>//GEN-END:initComponents
 
     private void backBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backBtnActionPerformed

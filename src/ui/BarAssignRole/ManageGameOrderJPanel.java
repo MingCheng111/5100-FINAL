@@ -87,7 +87,6 @@ public class ManageGameOrderJPanel extends javax.swing.JPanel {
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
-        jSeparator1 = new javax.swing.JSeparator();
         jLabel2 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
         stadiumOrderJTable = new javax.swing.JTable();
@@ -100,16 +99,16 @@ public class ManageGameOrderJPanel extends javax.swing.JPanel {
         setLayout(null);
 
         jLabel1.setFont(new java.awt.Font("Bodoni MT", 1, 36)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Bar Assign Part");
         add(jLabel1);
-        jLabel1.setBounds(6, 6, 321, 43);
-        add(jSeparator1);
-        jSeparator1.setBounds(0, 55, 850, 11);
+        jLabel1.setBounds(60, 10, 321, 43);
 
         jLabel2.setFont(new java.awt.Font("Bodoni MT", 1, 24)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Manage Game Order");
         add(jLabel2);
-        jLabel2.setBounds(266, 183, 253, 30);
+        jLabel2.setBounds(320, 200, 253, 30);
 
         stadiumOrderJTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -144,7 +143,7 @@ public class ManageGameOrderJPanel extends javax.swing.JPanel {
         jScrollPane1.setViewportView(stadiumOrderJTable);
 
         add(jScrollPane1);
-        jScrollPane1.setBounds(49, 277, 691, 155);
+        jScrollPane1.setBounds(130, 290, 691, 155);
 
         btnAcceptBookStadium.setBackground(new java.awt.Color(255, 255, 255));
         btnAcceptBookStadium.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
@@ -155,7 +154,7 @@ public class ManageGameOrderJPanel extends javax.swing.JPanel {
             }
         });
         add(btnAcceptBookStadium);
-        btnAcceptBookStadium.setBounds(213, 476, 91, 29);
+        btnAcceptBookStadium.setBounds(260, 490, 91, 29);
 
         btnRefuseBookStadium.setBackground(new java.awt.Color(255, 255, 255));
         btnRefuseBookStadium.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
@@ -166,7 +165,7 @@ public class ManageGameOrderJPanel extends javax.swing.JPanel {
             }
         });
         add(btnRefuseBookStadium);
-        btnRefuseBookStadium.setBounds(456, 476, 93, 29);
+        btnRefuseBookStadium.setBounds(510, 490, 93, 29);
 
         btnBack.setBackground(new java.awt.Color(255, 255, 255));
         btnBack.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
@@ -177,12 +176,12 @@ public class ManageGameOrderJPanel extends javax.swing.JPanel {
             }
         });
         add(btnBack);
-        btnBack.setBounds(0, 72, 77, 29);
+        btnBack.setBounds(50, 90, 77, 29);
 
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/960x0.jpeg"))); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/watch games at bar-2.jpeg"))); // NOI18N
         jLabel4.setText("jLabel4");
         add(jLabel4);
-        jLabel4.setBounds(0, -10, 840, 640);
+        jLabel4.setBounds(0, -10, 1160, 960);
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnAcceptBookStadiumActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAcceptBookStadiumActionPerformed
@@ -257,7 +256,6 @@ public class ManageGameOrderJPanel extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JSeparator jSeparator1;
     private javax.swing.JTable stadiumOrderJTable;
     // End of variables declaration//GEN-END:variables
 }
