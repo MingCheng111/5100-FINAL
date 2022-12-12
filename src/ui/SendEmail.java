@@ -22,7 +22,7 @@ public class SendEmail
         String to = email;
 
         // 发件人电子邮箱
-        String from = "3476680@qq.com";
+        String from = "1041877876@qq.com";
 
         // 指定发送邮件的主机为 smtp.qq.com
         String host = "smtp.qq.com";  //QQ 邮件服务器
@@ -42,7 +42,7 @@ public class SendEmail
         Session session = Session.getDefaultInstance(properties,new Authenticator(){
             public PasswordAuthentication getPasswordAuthentication()
             {
-                return new PasswordAuthentication("34766@qq.com", "bbhlizkgouyachhc"); //发件人邮件用户名、密码
+                return new PasswordAuthentication("1041877876@qq.com", "hlqejsrnydfhbfgi"); //发件人邮件用户名、密码
             }
         });
 
@@ -57,10 +57,10 @@ public class SendEmail
             message.addRecipient(Message.RecipientType.TO, new InternetAddress(to));
 
             // Set Subject: 头部头字段
-            message.setSubject("This is the Subject Line!");
+            message.setSubject("Welocom Join World Cup Fans System!!!");
 
             // 设置消息体
-            message.setText("This is actual message");
+            message.setText("You are very welcome to join our system and we will be happy to serve fans all over the world throughout the World Cup. Next, enjoy your trip to the fullest! ! !");
 
             // 发送消息
             Transport.send(message);
