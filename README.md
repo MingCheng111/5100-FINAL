@@ -8,7 +8,7 @@ Team Member
 --
 Jinlang He, Ming Cheng, Yuemei Chen
 
-Project Introduction
+Description
 --
 This system is designed to provide service for soccer fans during the 2022 World Cup by arranging game-watching events. 
 
