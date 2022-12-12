@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Finalrenew">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/db4o-8.0.184.15484-all-java5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/javax.mail.jar!/" />
+      <root url="jar://$PROJECT_DIR$/AbsoluteLayout.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
