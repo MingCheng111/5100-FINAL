@@ -88,7 +88,6 @@ public class ChooseBarJPanel extends javax.swing.JPanel {
         jScrollPane1 = new javax.swing.JScrollPane();
         stadiumJTable = new javax.swing.JTable();
         btnSubmitStadium = new javax.swing.JButton();
-        jLabel2 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(255, 255, 255));
         setLayout(null);
@@ -96,7 +95,7 @@ public class ChooseBarJPanel extends javax.swing.JPanel {
         jLabel1.setFont(new java.awt.Font("Bodoni MT", 1, 24)); // NOI18N
         jLabel1.setText("Book a Bar");
         add(jLabel1);
-        jLabel1.setBounds(450, 120, 130, 30);
+        jLabel1.setBounds(450, 120, 114, 29);
 
         btnBack.setBackground(new java.awt.Color(255, 255, 255));
         btnBack.setFont(new java.awt.Font("Bodoni MT", 1, 14)); // NOI18N
@@ -107,7 +106,7 @@ public class ChooseBarJPanel extends javax.swing.JPanel {
             }
         });
         add(btnBack);
-        btnBack.setBounds(0, 0, 77, 29);
+        btnBack.setBounds(0, 0, 63, 25);
 
         stadiumJTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -153,11 +152,7 @@ public class ChooseBarJPanel extends javax.swing.JPanel {
             }
         });
         add(btnSubmitStadium);
-        btnSubmitStadium.setBounds(690, 430, 125, 29);
-
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/shutterstockphotopubfootball.jpeg"))); // NOI18N
-        add(jLabel2);
-        jLabel2.setBounds(0, -160, 1370, 1000);
+        btnSubmitStadium.setBounds(690, 430, 125, 25);
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBackActionPerformed
@@ -224,7 +219,6 @@ public class ChooseBarJPanel extends javax.swing.JPanel {
     private javax.swing.JButton btnBack;
     private javax.swing.JButton btnSubmitStadium;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTable stadiumJTable;
     // End of variables declaration//GEN-END:variables
