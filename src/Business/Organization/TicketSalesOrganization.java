@@ -9,7 +9,10 @@ import Business.Role.Role;
 import Business.Role.TicketSalesRole;
 import java.util.ArrayList;
 
-
+/**
+ *
+ * @author Yuemei
+ */
 public class TicketSalesOrganization extends Organization {
    public TicketSalesOrganization() {
         super(Organization.Type.TicketSalesOrganizaiton.getValue());

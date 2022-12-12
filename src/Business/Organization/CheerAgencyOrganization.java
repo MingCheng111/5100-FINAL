@@ -9,7 +9,10 @@ import Business.Role.CheerAgencyManageRole;
 import Business.Role.Role;
 import java.util.ArrayList;
 
-
+/**
+ *
+ * @author Yuemei
+ */
 public class CheerAgencyOrganization extends Organization  {
     
    public CheerAgencyOrganization() {

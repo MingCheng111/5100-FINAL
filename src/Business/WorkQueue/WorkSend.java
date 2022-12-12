@@ -11,6 +11,10 @@ import Business.UserAccount.UserAccount;
 import java.util.ArrayList;
 import java.util.Date;
 
+/**
+ *
+ * @author Yuemei
+ */
 public class WorkSend extends WorkRequest{
      
 

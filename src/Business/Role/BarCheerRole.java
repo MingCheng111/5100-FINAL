@@ -15,7 +15,7 @@ import ui.BarCheerRole.BarCheerJPanel;
 
 /**
  *
- * @author 
+ * @author Yuemei
  */
 public class BarCheerRole extends Role {
 

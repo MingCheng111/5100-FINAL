@@ -7,7 +7,10 @@ package Business.WorkQueue;
 
 import java.util.Date;
 
-
+/**
+ *
+ * @author Yuemei
+ */
 public class Inventory {
     
     private String concertID;

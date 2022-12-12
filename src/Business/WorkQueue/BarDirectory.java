@@ -7,7 +7,10 @@ package Business.WorkQueue;
 
 import java.util.ArrayList;
 
-
+/**
+ *
+ * @author Jinlang
+ */
 public class BarDirectory {
     
     private ArrayList<Bar> stadiumList;

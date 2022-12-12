@@ -5,7 +5,10 @@ import Business.Employee.Employee;
 import Business.Role.Role;
 import Business.WorkQueue.WorkQueue;
 
-
+/**
+ *
+ * @author Yuemei
+ */
 public class UserAccount {
     
     private String username;

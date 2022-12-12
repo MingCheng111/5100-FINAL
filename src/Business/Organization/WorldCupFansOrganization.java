@@ -9,7 +9,10 @@ import Business.Role.WorldCupFansManageRole;
 import Business.Role.Role;
 import java.util.ArrayList;
 
-
+/**
+ *
+ * @author Yuemei
+ */
 public class WorldCupFansOrganization extends Organization  {
     
    public WorldCupFansOrganization() {

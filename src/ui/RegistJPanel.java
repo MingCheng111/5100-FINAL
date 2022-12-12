@@ -21,7 +21,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author LENOVO
+ * @author Yuemei
  */
 public class RegistJPanel extends javax.swing.JPanel {
 

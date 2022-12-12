@@ -32,7 +32,10 @@ import java.awt.Component;
 import javax.swing.JPanel;
 import javax.swing.table.DefaultTableModel;
 
-
+/**
+ *
+ * @author Yuemei
+ */
 public class TicketSalesJPanel extends javax.swing.JPanel {
     private JPanel userProcessContainer;
     private UserAccount userAccount;

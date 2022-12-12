@@ -6,7 +6,7 @@ package ui.BarAssignRole;
 
 /**
  *
- * @author MingCheng
+ * @author Jinlang
  */
 public class NewJPanel extends javax.swing.JPanel {
 

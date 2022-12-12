@@ -5,7 +5,10 @@
  */
 package Business;
 
-
+/**
+ *
+ * @author Jinlang
+ */
 public class Person {
     private String name;
 

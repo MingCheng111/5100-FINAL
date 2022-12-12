@@ -5,7 +5,10 @@
  */
 package Business.WorkQueue;
 
-
+/**
+ *
+ * @author Jinlang
+ */
 public class Audience  {
 
     private String audienceName;

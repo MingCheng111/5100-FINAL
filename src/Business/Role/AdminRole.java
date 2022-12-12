@@ -11,7 +11,10 @@ import Business.UserAccount.UserAccount;
 import ui.AdministrativeRole.AdminWorkAreaJPanel;
 import javax.swing.JPanel;
 
-
+/**
+ *
+ * @author Yuemei
+ */
 public class AdminRole extends Role{
 
     @Override

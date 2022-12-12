@@ -5,7 +5,10 @@
  */
 package Business.WorkQueue;
 
-
+/**
+ *
+ * @author Jinlang
+ */
 public class FeedBack {
     private String comment;
     private int scoreService;

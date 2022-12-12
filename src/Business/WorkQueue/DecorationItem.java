@@ -5,7 +5,10 @@
  */
 package Business.WorkQueue;
 
-
+/**
+ *
+ * @author Jinlang
+ */
 public class DecorationItem {
     private String decorationItemName;
     private int decorationItemPrice;

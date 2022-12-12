@@ -8,7 +8,10 @@ package Business.Enterprise;
 import Business.Role.Role;
 import java.util.ArrayList;
 
-
+/**
+ *
+ * @author MingCheng
+ */
 public class WorldCupFansAgency extends Enterprise{
     
     public WorldCupFansAgency(String name) {

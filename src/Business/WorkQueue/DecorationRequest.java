@@ -11,7 +11,10 @@ import java.util.ArrayList;
 import java.util.Date;
 
 
-
+/**
+ *
+ * @author Jinlang
+ */
 public class DecorationRequest extends WorkRequest{
 
 //    private Decorate decorate;

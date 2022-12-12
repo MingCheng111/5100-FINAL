@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author MingCheng
+ * @author Yuemei
  */
 public class UserAccountDirectory {
     

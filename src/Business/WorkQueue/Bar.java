@@ -7,7 +7,7 @@ package Business.WorkQueue;
 
 /**
  *
- * @author 
+ * @author Jinlang
  */
 public class Bar {
     private int stadiumID;

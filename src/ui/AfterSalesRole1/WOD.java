@@ -4,12 +4,13 @@
  */
 package ui.AfterSalesRole1;
 
-/**
- *
- * @author MingCheng
- */
+
 import java.io.Serializable;
  
+/**
+ *
+ * @author Yuemei
+ */
 public class WOD<T> implements Comparable<WOD<T>>, Serializable {
     private static final long serialVersionUID = -2317609898674927526L;
     private T obj;

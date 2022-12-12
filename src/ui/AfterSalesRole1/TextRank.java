@@ -5,13 +5,14 @@
 
 package ui.AfterSalesRole1;
 
-/**
- *
- * @author MingCheng
- */
+
  
 import java.util.*;
- 
+
+ /**
+ *
+ * @author Yuemei
+ */
 public class TextRank {
  
     private static float min_diff = 0.001f; //差值最小

@@ -15,7 +15,10 @@ import javax.swing.JPanel;
 import ui.CheerAgencyRole.CheerWorkJPanel;
 import ui.BarCheerRole.BarCheerJPanel;
 
-
+/**
+ *
+ * @author Yuemei
+ */
 public class CheerAgencyManageRole extends Role{
 
     @Override
